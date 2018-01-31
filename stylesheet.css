@@ -2,15 +2,16 @@
 
 .ftface{
   margin-left:39%;
-  margin-top: 1%;
+  margin-top: %;
    position: absolute;
    
 }
 
 .ftinst
 {
-   margin-left:55%;
+   margin-left:2%;
    position: absolute;
+   margin-top: -1%;
 }
 .c1
 {
@@ -23,20 +24,26 @@
 body
 {
 
-  background-image: url("http://s966.info/library/w/work-desk-background/work-desk-background-11.jpg");
+  background-image: url("fd.jpg");
 }
 
-.botao
+.button
 {
 
   margin-left: 46%;
   margin-bottom: -3%;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
 
 }
 
+
 .ft
 {
-  width: 50%;
+  width: 50%; height: width;
+
   border-radius: 50%;
 
   display: block;
@@ -50,10 +57,10 @@ body
 .copy
 {
   text-align: center;
- text-shadow: 1px 0px 0px beige, 
-                 -1px 0px 0px beige, 
-                 0px 1px 0px beige, 
-                 0px -1px 0px beige;
+ text-shadow: 1px 0px 0px gray, 
+                 -1px 0px 0px gray, 
+                 0px 1px 0px gray, 
+                 0px -1px 0px gray;
     font-size: 150%;
         font-weight: bold;
     color: black;
@@ -64,10 +71,10 @@ body
 {
   text-align: center;
   
- text-shadow: 1px 0px 0px beige, 
-                 -1px 0px 0px beige, 
-                 0px 1px 0px beige, 
-                 0px -1px 0px beige;
+ text-shadow: 1px 0px 0px gray, 
+                 -1px 0px 0px gray, 
+                 0px 1px 0px gray, 
+                 0px -1px 0px gray;
     font-size: 150%;
     font-weight: bold;
     color: black;
