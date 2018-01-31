@@ -1,31 +1,53 @@
 .n1
 {
   text-align: center;
-  background-color: black;
   color: white;
 }
 
+.nome1{}
+
+.ftface{
+  margin-left:48%;
+   position: absolute;
+    /**top: 50%;**/
+    /**left: 50%;**/
+    width: 50px;
+    height: 120px;
+    /**margin:-60px 0 0 -60px;**/
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+
+}
 .c1
 {
-  width: 100%;
-  margin-left: 0%;
+  width: 30%;
+  background-image: url("fundo 2.jpg"); 
+  margin-left: 35%;
   margin-top: 10%;
-   background-image: url("fundo.jpg"); /* Green */
-   border-image: 20%;
-       
+
+
+
+
 }
 body
 {
-  background-image: url("ft2.jpg");
+  background-image: url("fundo.jpg");
 }
+
 
 .ft
 {
-    margin-left: 44%;
+  margin-left: 28%;
+
 }
 .descricao
 {
   text-align: center;
-  background-color: black;
+  background-image: url("fund2.jpg");
   color: white;
 }
